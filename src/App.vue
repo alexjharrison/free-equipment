@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <main class="bg-sky-900 min-h-screen text-xl text-slate-300 p-4">
-    <h1 class="text-3xl font-semibold">How to homebrew 🍺</h1>
+  <main class="bg-sky-900 min-h-screen text-xl text-slate-300 p-4 text-center">
+    <h1 class="text-3xl font-semibold text-center">How to homebrew 🍺</h1>
     <p>Take your crushed grains from the homebrew store and mash them in the mash tun for ~1 hour</p>
     <img src="/images/cooler-1.jpg" alt="mash-tun-1">
     <p>There is a false bottom on the mash tun so wort can leave the cooler without getting clogged by the grains</p>
@@ -67,6 +67,8 @@ html,body {
 }
 
 img,p {
-  margin-block: 2rem;
+  @apply max-w-xl mx-auto my-8
+}
+img {
 }
 </style>
