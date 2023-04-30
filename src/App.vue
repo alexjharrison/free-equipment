@@ -69,6 +69,4 @@ html,body {
 img,p {
   @apply max-w-xl w-full mx-auto my-8
 }
-img {
-}
 </style>
