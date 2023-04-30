@@ -57,7 +57,8 @@
     <p>The bottles are carbonated and you have beer. Cheers</p>
     <img src="/images/cheers.jpg" alt="cheers">
     <p>Everything pictured is yours pro gratis if you want it</p>
-
+    <p>Action Pic</p>
+    <img src="/images/action.jpg" alt="action">
   </main>
 </template>
 
